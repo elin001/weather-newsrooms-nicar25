@@ -1,4 +1,4 @@
-SOURCE_URL:="https://api.weather.gov/alerts/active?status=actual&area=MN&code=FLA"
+SOURCE_URL:="https://api.weather.gov/alerts/active?area=MN"
 # SOURCE_URL:="https://s3.amazonaws.com/media.johnkeefe.net/data/example_warnings.json"
 
 all: clean download slack
